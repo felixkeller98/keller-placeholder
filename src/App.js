@@ -20,9 +20,9 @@ const App = () => (
       text: "Christian Keller",
     }}
     description={{
-      text: "Our website is under construction. We'll be here soon, subscribe to be notified",
+      text: "Alle Geschäftsanfragen unter christian@kellermedia.eu",
       style: {
-        maxWidth: "440px",
+        maxWidth: "500px",
       },
     }}
     links={[
