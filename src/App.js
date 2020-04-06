@@ -1,11 +1,13 @@
 import React from "react";
 import UnderConstruction from "react-under-construction";
 import "react-under-construction/build/css/index.css";
+import watch from "./Images/watch.png";
+import lagrasse from "./Images/Lagrasse.JPG";
 
 const App = () => (
   <UnderConstruction
     background={{
-      image: "https://static.pexels.com/photos/259698/pexels-photo-259698.jpeg",
+      image: lagrasse,
       textColor: "#fff",
       overlay: {
         color: "#000",
@@ -13,7 +15,7 @@ const App = () => (
       },
     }}
     logo={{
-      src: "https://image.ibb.co/b7guP5/Rubbby_without_text.png",
+      src: watch,
       alt: "alt text",
     }}
     title={{
