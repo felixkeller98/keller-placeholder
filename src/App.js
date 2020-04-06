@@ -2,7 +2,8 @@ import React from "react";
 import UnderConstruction from "react-under-construction";
 import "react-under-construction/build/css/index.css";
 import watch from "./Images/watch.png";
-import lagrasse from "./Images/Lagrasse.JPG";
+import lagrasse from "./Images/Lagrasse1.jpg";
+import mail from "./Images/mail.png";
 
 const App = () => (
   <UnderConstruction
@@ -16,7 +17,7 @@ const App = () => (
     }}
     logo={{
       src: watch,
-      alt: "alt text",
+      alt: "watch",
     }}
     title={{
       text: "Christian Keller",
@@ -42,7 +43,7 @@ const App = () => (
       // },
       {
         url: "mailto:christian@kellermedia.eu",
-        image: "https://image.flaticon.com/icons/svg/321/321817.svg",
+        image: mail,
       },
     ]}
   />
